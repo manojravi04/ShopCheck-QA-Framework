@@ -7,6 +7,9 @@ public class InventoryPage {
     private WebDriver driver;
 
     private By inventoryTitle = By.className("title");
+    private By addBackpackButton = By.id("add-to-cart-sauce-labs-backpack");
+    private By cartIcon = By.className("shopping_cart_link");
+    private By cartBadge = By.className("shopping_cart_badge");
 
     public InventoryPage(WebDriver driver) {
         this.driver = driver;
@@ -14,5 +17,17 @@ public class InventoryPage {
 
     public String getPageTitle() {
         return driver.findElement(inventoryTitle).getText();
+    }
+
+    public void addBackpackToCart() {
+        driver.findElement(addBackpackButton).click();
+    }
+
+    public void openCart() {
+        driver.findElement(cartIcon).click();
+    }
+
+    public String getCartBadgeCount() {
+        return driver.findElement(cartBadge).getText();
     }
 }

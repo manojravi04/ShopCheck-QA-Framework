@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ShopCheck QA Test Suite">
+    <test name="E-Commerce Regression Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>

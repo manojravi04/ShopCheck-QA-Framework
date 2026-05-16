@@ -1,0 +1,8 @@
+base\BaseTest.class
+pages\InventoryPage.class
+tests\CheckoutTest.class
+pages\LoginPage.class
+pages\CartPage.class
+pages\CheckoutPage.class
+utils\ConfigReader.class
+tests\LoginTest.class
