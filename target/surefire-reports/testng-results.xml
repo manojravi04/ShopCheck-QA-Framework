@@ -2,46 +2,67 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-16T19:38:14 EDT" name="Surefire suite" finished-at="2026-05-16T19:38:21 EDT" duration-ms="7239">
+  <suite started-at="2026-05-23T17:36:05 EDT" name="Surefire suite" finished-at="2026-05-23T17:36:20 EDT" duration-ms="14657">
     <groups>
     </groups>
-    <test started-at="2026-05-16T19:38:14 EDT" name="Surefire test" finished-at="2026-05-16T19:38:21 EDT" duration-ms="7239">
+    <test started-at="2026-05-23T17:36:05 EDT" name="Surefire test" finished-at="2026-05-23T17:36:20 EDT" duration-ms="14657">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4ddced80]" started-at="2026-05-16T19:38:17 EDT" name="setUp" finished-at="2026-05-16T19:38:18 EDT" duration-ms="1314" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@1534f01b]" started-at="2026-05-23T17:36:16 EDT" name="setUp" finished-at="2026-05-23T17:36:18 EDT" duration-ms="1852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="invalidLoginTest()[pri:0, instance:tests.LoginTest@4ddced80]" started-at="2026-05-16T19:38:18 EDT" name="invalidLoginTest" finished-at="2026-05-16T19:38:19 EDT" duration-ms="586" status="PASS">
+        <test-method signature="invalidLoginTest()[pri:0, instance:tests.LoginTest@1534f01b]" started-at="2026-05-23T17:36:18 EDT" name="invalidLoginTest" finished-at="2026-05-23T17:36:18 EDT" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4ddced80]" started-at="2026-05-16T19:38:19 EDT" name="tearDown" finished-at="2026-05-16T19:38:19 EDT" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1534f01b]" started-at="2026-05-23T17:36:18 EDT" name="tearDown" finished-at="2026-05-23T17:36:18 EDT" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest()[pri:0, instance:tests.LoginTest@1534f01b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@4ddced80]" started-at="2026-05-16T19:38:19 EDT" name="setUp" finished-at="2026-05-16T19:38:21 EDT" duration-ms="1574" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@1534f01b]" started-at="2026-05-23T17:36:18 EDT" name="setUp" finished-at="2026-05-23T17:36:20 EDT" duration-ms="1624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validLoginTest()[pri:0, instance:tests.LoginTest@4ddced80]" started-at="2026-05-16T19:38:21 EDT" name="validLoginTest" finished-at="2026-05-16T19:38:21 EDT" duration-ms="374" status="PASS">
+        <test-method signature="validLoginTest()[pri:0, instance:tests.LoginTest@1534f01b]" started-at="2026-05-23T17:36:20 EDT" name="validLoginTest" finished-at="2026-05-23T17:36:20 EDT" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@4ddced80]" started-at="2026-05-16T19:38:21 EDT" name="tearDown" finished-at="2026-05-16T19:38:21 EDT" duration-ms="143" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@1534f01b]" started-at="2026-05-23T17:36:20 EDT" name="tearDown" finished-at="2026-05-23T17:36:20 EDT" duration-ms="144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest()[pri:0, instance:tests.LoginTest@1534f01b] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.CheckoutTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@65466a6a]" started-at="2026-05-16T19:38:14 EDT" name="setUp" finished-at="2026-05-16T19:38:16 EDT" duration-ms="1907" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.CheckoutTest@4ddced80]" started-at="2026-05-23T17:36:06 EDT" name="setUp" finished-at="2026-05-23T17:36:15 EDT" duration-ms="9099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="completeCheckoutTest()[pri:0, instance:tests.CheckoutTest@65466a6a]" started-at="2026-05-16T19:38:16 EDT" name="completeCheckoutTest" finished-at="2026-05-16T19:38:17 EDT" duration-ms="1013" status="PASS">
+        <test-method signature="completeCheckoutTest()[pri:0, instance:tests.CheckoutTest@4ddced80]" started-at="2026-05-23T17:36:15 EDT" name="completeCheckoutTest" finished-at="2026-05-23T17:36:16 EDT" duration-ms="983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- completeCheckoutTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@65466a6a]" started-at="2026-05-16T19:38:17 EDT" name="tearDown" finished-at="2026-05-16T19:38:17 EDT" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.CheckoutTest@4ddced80]" started-at="2026-05-23T17:36:16 EDT" name="tearDown" finished-at="2026-05-23T17:36:16 EDT" duration-ms="168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completeCheckoutTest status=SUCCESS method=CheckoutTest.completeCheckoutTest()[pri:0, instance:tests.CheckoutTest@4ddced80] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

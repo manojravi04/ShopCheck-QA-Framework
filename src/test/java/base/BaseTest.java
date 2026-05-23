@@ -3,9 +3,11 @@ package base;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import utils.ConfigReader;
+import utils.ScreenshotUtil;
 
 import java.time.Duration;
 import java.util.HashMap;
@@ -36,7 +38,11 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void tearDown() {
+    public void tearDown(ITestResult result) {
+        if (result.getStatus() == ITestResult.FAILURE && driver != null) {
+            ScreenshotUtil.captureScreenshot(driver, result.getName());
+        }
+
         if (driver != null) {
             driver.quit();
         }

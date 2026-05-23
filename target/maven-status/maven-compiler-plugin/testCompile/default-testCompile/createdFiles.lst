@@ -5,4 +5,5 @@ pages\LoginPage.class
 pages\CartPage.class
 pages\CheckoutPage.class
 utils\ConfigReader.class
+utils\ScreenshotUtil.class
 tests\LoginTest.class
