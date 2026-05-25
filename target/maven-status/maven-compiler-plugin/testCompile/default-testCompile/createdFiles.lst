@@ -7,3 +7,5 @@ pages\CheckoutPage.class
 utils\ConfigReader.class
 utils\ScreenshotUtil.class
 tests\LoginTest.class
+utils\ExtentManager.class
+utils\WaitUtils.class
